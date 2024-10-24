@@ -137,7 +137,7 @@ You can easily integrate `secure-offline-json-db` with a Next.js backend to mana
 3. Create an API route in Next.js (`pages/api/records.js`):
 
     ```javascript
-    import JsonOfflineDb from 'secure-json-db';
+    import JsonOfflineDb from 'secure-offline-json-db';
     import Joi from 'joi';
 
     const recordSchema = Joi.object({
