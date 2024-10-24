@@ -23,7 +23,7 @@
 To install the package, run:
 
 ```bash
-npm install secure-ofline-json-db
+npm install secure-offline-json-db
 ```
 ## Usage
 
@@ -131,7 +131,7 @@ You can easily integrate `secure-offline-json-db` with a Next.js backend to mana
 2. Install **secure-json-db** within your Next.js project:
 
     ```bash
-    npm install secure-json-db
+    npm install secure-offline-json-db
     ```
 
 3. Create an API route in Next.js (`pages/api/records.js`):
