@@ -1,0 +1,20 @@
+{
+  "name": "secure-offline-json-db",
+  "version": "1.0.0",
+  "description": "A secure offline JSON database with input validation, rate limiting, and logging.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "c3o-git",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.1",
+    "fs-extra": "^11.2.0",
+    "joi": "^17.13.3",
+    "morgan": "^1.10.0",
+    "next": "^15.0.1",
+    "rate-limiter-flexible": "^5.0.4"
+  }
+}
